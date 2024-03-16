@@ -23,9 +23,9 @@ namespace Decarator
             //norm code
             //t.DateTimeWrite();
             //printSymbol();
-            StringBuilder sb = t.DateTimeWrite(); // Получаем строку от времени t
-            sb.AppendLine(); // Добавляем пустую строку перед символами
-            printSymbol(); // Добавляем символы
+            StringBuilder sb = t.DateTimeWrite(); 
+            sb.AppendLine(); 
+            printSymbol(); 
             return sb;
         }
 
